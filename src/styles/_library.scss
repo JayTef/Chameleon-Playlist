@@ -1,0 +1,126 @@
+.library {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 22.5rem;
+    height: 100%;
+    border-radius: 0.25rem;
+    background-color: #252526;
+    box-shadow: 2px 2px 50px rgb(204, 204, 204);
+    // box-shadow: 2px 2px 50px rgb(169, 169, 169);
+    // box-shadow: 2px 2px 50px rgb(85, 85, 85);
+    overflow: auto;
+    transform: translateX(-100%);
+    transition: all 0.5s ease;
+    opacity: 0;
+
+    h2 {
+        padding: 2rem;
+    }
+
+}
+
+
+
+
+.library-song {
+    display: flex;
+    align-items: center;
+    // flex-direction: column;
+    // width: 97.2%;
+    padding: 1rem 2rem 1rem 2rem;
+    cursor: pointer;
+    border: 1px solid #2C2C2C;
+
+
+    img {
+        width: 30%;
+        border-radius: 10%;
+    }
+
+}
+
+
+.library-song:not(.selected):hover {
+    background: #2C2C2C;
+
+
+    .song-description {
+        background: #2C2C2C;
+
+        h3 {
+            background: #2C2C2C;
+
+        }
+
+        h4 {
+            background: #2C2C2C;
+
+        }
+    }
+}
+
+.song-description {
+    padding-left: 1rem;
+
+    h3 {
+        font-size: 1rem;
+    }
+
+    h4 {
+        font-size: 0.7rem;
+    }
+}
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(155, 155, 155, 0.5) transparent;
+}
+
+*::-webkit-scrollbar {
+    width: 5px;
+}
+
+*::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: rgba(156, 152, 152, 0.5);
+    border-radius: 20px;
+    border: transparent;
+}
+
+
+
+.selected {
+    background-color: var(--song-color);
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6);
+
+    .song-description {
+        background-color: var(--song-color);
+        box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6);
+
+        h3 {
+            background-color: var(--song-color);
+            box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6);
+        }
+
+        h4 {
+            background-color: var(--song-color);
+            box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6);
+        }
+    }
+}
+
+.active-library {
+    transform: translateX(0%);
+    opacity: 1;
+}
+
+
+@media screen and (max-width: 768px) {
+    .library {
+        width: 20rem;
+    }
+}

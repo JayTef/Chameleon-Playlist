@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    // background-color: #252526;
+}
+
+body {
+    min-height: 100vh;
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    /* Change from absolute to fixed */
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: var(--song-color);
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.8);
+    z-index: -1;
+}
+
+// body::before {
+//     content: '';
+//     position: absolute;
+//     top: 0;
+//     right: 0;
+//     bottom: 0;
+//     left: 0;
+//     background-color: var(--song-color);
+//     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.8);
+//     z-index: -1;
+// }
+
+
+h1,
+h2,
+h3 {
+    color: rgb(0, 0, 0);
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+h3,
+h4 {
+    font-weight: 400;
+    color: rgb(100, 100, 100);
+}
+
+.App {
+    transition: all 0.5s ease;
+}
+
+.library-active {
+    // margin-left: 15%;
+    margin-left: 30%;
+}
+
+
+@import './song';
+@import './player';
+@import './library';
+@import './nav';
