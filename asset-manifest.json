@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Chameleon-Playlist/static/css/main.d2a45b95.css",
+    "main.js": "/Chameleon-Playlist/static/js/main.dbab1a6c.js",
+    "static/js/787.9c6c73e8.chunk.js": "/Chameleon-Playlist/static/js/787.9c6c73e8.chunk.js",
+    "static/media/chameleon-logo.png": "/Chameleon-Playlist/static/media/chameleon-logo.370a2b11c2ac2fc65c7e.png",
+    "index.html": "/Chameleon-Playlist/index.html",
+    "main.d2a45b95.css.map": "/Chameleon-Playlist/static/css/main.d2a45b95.css.map",
+    "main.dbab1a6c.js.map": "/Chameleon-Playlist/static/js/main.dbab1a6c.js.map",
+    "787.9c6c73e8.chunk.js.map": "/Chameleon-Playlist/static/js/787.9c6c73e8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d2a45b95.css",
+    "static/js/main.dbab1a6c.js"
+  ]
+}
