@@ -1,4 +1,4 @@
-Explore [Chameleon Playlist](http://).
+Explore [Chameleon Playlist](https://JayTef.github.io/Chameleon-Playlist).
 
 # Chameleon Playlist
 
