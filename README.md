@@ -1,5 +1,4 @@
 Explore [Chameleon Playlist](https://JayTef.github.io/Chameleon-Playlist).
-<a href="https://JayTef.github.io/Chameleon-Playlist" target="_blank">Explore Chameleon Playlist</a>
 
 # Chameleon Playlist
 
